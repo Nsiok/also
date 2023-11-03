@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.outer {
+    height: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.inner {
+    background-color: green;
+    margin: 15px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+}
+
+.inner:first-child {
+    height: 200px;
+}
+
+.inner:last-child {
+    height: 400px;
+}
